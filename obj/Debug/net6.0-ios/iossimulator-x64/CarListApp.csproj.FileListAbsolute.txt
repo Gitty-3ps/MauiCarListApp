@@ -214,7 +214,6 @@ C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libx
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\mauisplash.inputs
@@ -265,3 +264,4 @@ C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\refi
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\CarListApp.pdb
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\CarListApp.genruntimeconfig.cache
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\ref\CarListApp.dll
+C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature
