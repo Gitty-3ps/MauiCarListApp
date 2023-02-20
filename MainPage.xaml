@@ -2,8 +2,24 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CarListApp.MainPage"
-			 xmlns:model = "clr-namespace:CarListApp.Maui.Models"
-             xmlns:viewmodel = "clr-namespace:CarListApp.Maui.ViewModels"
-             x:DataType="local:viewmodel:CarListViewModel"
-             Title="{Binding Title}">
+			 xmlns:model ="clr-namespace:CarListApp.Models"
+             xmlns:viewmodel ="clr-namespace:CarListApp.ViewModels"
+             x:DataType="viewmodel:CarListViewModel"
+             Title="Car List">
+    <Grid ColumnDefinitions="*,*, Auto" ColumnSpacing="5" RowDefinitions="*, Auto">
+        <CollectionView Grid.ColumnSpan="2" ItemsSource="{Binding Cars}" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Car">
+                    <Frame HeightRequest="90">
+                        <HorizontalStackLayout Padding="10" Spacing="5">
+                            <Label Text="{Binding Make}"></Label>
+                            <Label Text="{Binding Model}"></Label>
+
+                        </HorizontalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button Text="Fetch Cars" Command="{Binding GetCarListCommand}" IsEnabled="{Binding IsNotLoading}" Grid.Row="1" Grid.Column="0"></Button>
+    </Grid>
 </ContentPage>

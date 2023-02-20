@@ -10,7 +10,7 @@ namespace CarListApp.ViewModels
     {
         private readonly CarService carService;
 
-        public ObservableCollection<Car> Cars { get; private set; }
+        public ObservableCollection<Car> Cars { get; private set; } = new();
 
         public CarListViewModel(CarService carService)
         {
@@ -19,7 +19,7 @@ namespace CarListApp.ViewModels
         }
 
         [RelayCommand]
-        async Task GetCarListAsync()
+        async Task GetCarList()
         {
             if (IsLoading) return;
             try
@@ -28,8 +28,6 @@ namespace CarListApp.ViewModels
                 if (Cars.Any()) Cars.Clear();
 
                 var cars = carService.GetCars();
-
-
                 foreach (var car in cars) Cars.Add(car);  
             }
             catch (Exception ex)

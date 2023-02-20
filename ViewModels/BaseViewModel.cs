@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using System.ComponentModel;
-using System.Text;
-using System.Threading.Tasks;
-using CommunityToolkit.Mvvm.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace CarListApp.ViewModels
 {
@@ -19,7 +14,5 @@ namespace CarListApp.ViewModels
         bool isLoading;
 
         public bool IsNotLoading => !IsLoading;
-
-
     }
 }

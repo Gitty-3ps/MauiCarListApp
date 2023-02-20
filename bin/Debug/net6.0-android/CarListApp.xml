@@ -14,7 +14,7 @@
             <summary>The backing field for <see cref="P:CarListApp.ViewModels.CarListViewModel.GetCarListCommand"/>.</summary>
         </member>
         <member name="P:CarListApp.ViewModels.CarListViewModel.GetCarListCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.ViewModels.CarListViewModel.GetCarListAsync"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.ViewModels.CarListViewModel.GetCarList"/>.</summary>
         </member>
     </members>
 </doc>
