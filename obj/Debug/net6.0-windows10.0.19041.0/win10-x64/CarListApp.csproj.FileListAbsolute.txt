@@ -29,8 +29,14 @@ C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.Projection.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.CSharp.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.VisualBasic.dll
@@ -253,7 +259,6 @@ C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1322.58009.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -359,3 +364,4 @@ C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1423.7309.dll

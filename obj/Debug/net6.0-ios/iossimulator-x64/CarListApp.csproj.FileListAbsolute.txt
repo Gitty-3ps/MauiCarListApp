@@ -11,6 +11,11 @@ C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\Micr
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\SQLite-net.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\SQLitePCLRaw.nativelibrary.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.CSharp.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
@@ -199,13 +204,10 @@ C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libi
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libicuuc.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmono-component-debugger-static.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmono-component-debugger-stub-static.a
-C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmono-component-debugger.dylib
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-static.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing-stub-static.a
-C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmono-component-diagnostics_tracing.dylib
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmono-component-hot_reload-static.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmono-component-hot_reload-stub-static.a
-C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmono-component-hot_reload.dylib
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmonosgen-2.0.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\libmonosgen-2.0.dylib
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.iOS.registrar.a
@@ -264,4 +266,3 @@ C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\refi
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\CarListApp.pdb
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\CarListApp.genruntimeconfig.cache
 C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\ref\CarListApp.dll
-C:\Users\User\source\repos\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature

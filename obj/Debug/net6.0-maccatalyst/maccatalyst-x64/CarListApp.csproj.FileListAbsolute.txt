@@ -1,3 +1,4 @@
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\CarListApp.runtimeconfig.json
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\CarListApp.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\CarListApp.pdb
@@ -11,6 +12,11 @@ C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Options.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\SQLite-net.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.nativelibrary.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.core.dll
+C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
@@ -203,7 +209,6 @@ C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\libmono-component-diagnostics_tracing-stub-static.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-static.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-stub-static.a
-C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.dylib
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.registrar.a
 C:\Users\User\source\repos\CarListApp\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.a

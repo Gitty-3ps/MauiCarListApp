@@ -39,3 +39,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarListApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/User/source/repos/CarListApp/Views/CarDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CarListApp.Views.CarDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CarDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CarDetailsPage.xaml
