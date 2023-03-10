@@ -12,13 +12,17 @@ namespace CarListApp.ViewModels
     {
         const string editButtonText = "Update Car";
         const string createButtonText = "Add Car";
+        private readonly CarApiService carApiService;
+        NetworkAccess accessType = Connectivity.Current.NetworkAccess;
+        string message = string.Empty;
+
         public ObservableCollection<Car> Cars { get; private set; } = new();
 
-        public CarListViewModel()
+        public CarListViewModel(CarApiService carApiService)
         {
             Title = "Car List";
             AddEditButtonText = createButtonText;
-            GetCarList().Wait();
+            this.carApiService = carApiService;
         }
 
         [ObservableProperty]
@@ -43,14 +47,21 @@ namespace CarListApp.ViewModels
             {
                 IsLoading = true;
                 if (Cars.Any()) Cars.Clear();
-
-                var cars = App.CarService.GetCars();
+                var cars = new List<Car>();
+                if (accessType == NetworkAccess.Internet)
+                {
+                    cars = await carApiService.GetCars();
+                }
+                else
+                {
+                    cars = App.CarDatabaseService.GetCars();
+                }
                 foreach (var car in cars) Cars.Add(car);  
             }
             catch (Exception ex)
             {
                 Debug.WriteLine($"Unable to get car: {ex.Message}");
-                await Shell.Current.DisplayAlert("Error", "Failed to retrieve list of cars.", "Ok");
+                await ShowAlert("Failed to retrieve list of cars.");
             }
             finally
             {
@@ -72,12 +83,13 @@ namespace CarListApp.ViewModels
         {
             if (string.IsNullOrEmpty(Make) || string.IsNullOrEmpty(Model) || string.IsNullOrEmpty(Vin))
             {
-                await Shell.Current.DisplayAlert("Invalid Data", "Please insert valid data", "Ok");
+                await ShowAlert("Please insert valid data");
                 return;
             }
 
             var car = new Car
             {
+                Id = CarId,
                 Make = Make,
                 Model = Model,
                 Vin = Vin
@@ -85,16 +97,32 @@ namespace CarListApp.ViewModels
 
             if (CarId != 0)
             {
-                car.Id = CarId;
-                App.CarService.UpdateCar(car);
-                await Shell.Current.DisplayAlert("Info", App.CarService.StatusMessage, "Ok");
+                if (accessType == NetworkAccess.Internet)
+                {
+                    await carApiService.UpdateCar(CarId, car);
+                    message = carApiService.StatusMessage;
+                }
+                else
+                {
+                    App.CarDatabaseService.UpdateCar(car);   //(Car id, car)
+                    message = App.CarDatabaseService.StatusMessage;
+                }
             }
             else
             {
-                App.CarService.AddCar(car);
-                await Shell.Current.DisplayAlert("Info", App.CarService.StatusMessage, "Ok");
-            }
+                if (accessType == NetworkAccess.Internet)
+                {
+                    await carApiService.AddCar(car);
+                    message = carApiService.StatusMessage;
+                }
+                else
+                {
+                    App.CarDatabaseService.AddCar(car);
+                    message = App.CarDatabaseService.StatusMessage;
+                }
 
+            }
+            await ShowAlert(message);
             await GetCarList();
             await ClearForm();
         }
@@ -104,16 +132,22 @@ namespace CarListApp.ViewModels
         {
             if (id == 0)
             {
-                await Shell.Current.DisplayAlert("Invalid Record", "Please try again", "Ok");
+                await ShowAlert("Please try again");
                 return;
             }
-            var result = App.CarService.DeleteCar(id);
-            if (result == 0) await Shell.Current.DisplayAlert("Failed", "Please insert valid data", "Ok");
+
+            if (accessType == NetworkAccess.Internet)
+            {
+                await carApiService.DeleteCar(id);
+                message = carApiService.StatusMessage;
+            }
             else
             {
-                await Shell.Current.DisplayAlert("Deletion Successful", "Record Removed Successfully", "Ok");
-                await GetCarList();
+                App.CarDatabaseService.DeleteCar(id);
+                message = App.CarDatabaseService.StatusMessage;
             }
+            await ShowAlert(message);
+            await GetCarList();
         }
 
         [RelayCommand]
@@ -128,7 +162,16 @@ namespace CarListApp.ViewModels
         {
             AddEditButtonText = editButtonText;
             CarId = id;
-            var car = App.CarService.GetCar(id);
+            Car car;
+            if (accessType == NetworkAccess.Internet)
+            {
+                car = await carApiService.GetCar(CarId);
+            }
+            else
+            {
+                car = App.CarDatabaseService.GetCar(CarId);
+            }
+
             Make = car.Make;
             Model = car.Model;
             Vin = car.Vin;
@@ -144,5 +187,9 @@ namespace CarListApp.ViewModels
             Vin = string.Empty;
         }
 
+        private async Task ShowAlert(string message)
+        {
+            await Shell.Current.DisplayAlert("Info", message, "Ok");
+        }
     }
 }
